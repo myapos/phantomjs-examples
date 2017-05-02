@@ -1,2 +1,11 @@
 installation guide for ubuntu
 https://gist.github.com/julionc/7476620
+https://newspaint.wordpress.com/2013/03/19/how-to-click-on-a-div-or-span-using-phantomjs/
+
+installation
+
+https://gist.github.com/telbiyski/ec56a92d7114b8631c906c18064ce620
+https://www.packtpub.com/mapt/book/web-development/9781782164227/2/ch02lvl1sec18/simulating-mouse-clicks
+
+onclick="window.open('https://google.com')"
+

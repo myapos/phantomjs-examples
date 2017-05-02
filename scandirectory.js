@@ -1,7 +1,7 @@
 // List all the files in a Tree of Directories
 "use strict";
 var system = require('system');
-var url = require('webpage').create(), loadInProgress = false, fs = require('fs');
+
 var myFunctions = require('./functions')
 var htmlFiles = new Array();
 var cssFiles = new Array();
@@ -30,7 +30,7 @@ var scanDirectory = function (path) {
 scanDirectory(system.args[1]);
 console.log('Number of Html Files: ' + htmlFiles.length, ' htmlFiles:', htmlFiles);
 console.log('Number of Css Files: ' + cssFiles.length, ' cssFiles:', cssFiles);
-myFunctions.checkFiles(url, htmlFiles);
-//console.log('log:', myFunctions.checkFiles);
+myFunctions.checkFiles(htmlFiles);
+//console.log('log:', htmlFiles[1],'url', url.url);
 //checkFiles(url, cssFiles);
 //phantom.exit();
